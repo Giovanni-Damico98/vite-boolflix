@@ -1,0 +1,65 @@
+.input-group {
+  color: white;
+  position: relative;
+
+  #button-addon2 {
+    color: black;
+    border: 1px solid white;
+    height: 38px;
+    margin-top: 10px;
+    margin-right: 10px;
+    flex-shrink: 0;
+    padding: 0 10px;
+  }
+
+  .form-control {
+    border: 1px solid white !important;
+    margin-top: 10px;
+    flex-grow: 1;
+    align-self: flex-end;
+  }
+
+  img {
+    width: 150px;
+    height: auto;
+  }
+}
+.movie-results {
+  color: white;
+}
+
+#no-result {
+  color: white;
+  margin-top: 100px;
+}
+
+body {
+  background-color: #101010;
+  height: 100vh;
+  margin: 0;
+}
+
+nav {
+  position: absolute;
+  transform: translate(75%, 25%);
+
+  ul {
+    font-size: 14px;
+    gap: 30px;
+    display: flex;
+    list-style: none;
+    li {
+      cursor: pointer;
+      &:hover {
+        scale: 1.2;
+      }
+      &:active {
+        scale: 1;
+      }
+
+      a {
+        text-decoration: none !important;
+      }
+    }
+  }
+}
